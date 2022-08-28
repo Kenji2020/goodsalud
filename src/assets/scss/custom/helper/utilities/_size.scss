@@ -1,3 +1,0 @@
-@each $size,$value in $icon-size {
-    .icon-#{$value}{@include icons($value)}
-}
